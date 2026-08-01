@@ -6,7 +6,7 @@ Date: 27 July 2026
 Symptom: Scanner didn't respond at all. No enumeration, no movement, nothing.
 Tools used: Themisto TH-M100 multimeter, soldering iron, precision screwdriver set.
 
-**#Background**
+`#Background`
 I came back home after sem exams and had some notes to scan. 
 My father pulled out this really old scanner "Canon LiDE 110". It had previously been to neighbors house
 and even they tried to get it fixed in many repair shops but...NO LUCK
@@ -18,7 +18,7 @@ and they Agreed. so i took it home.
 2. It wouldn't power ON when plugged with Mini USB CABLE
 3. There was NO movement inside the scanner
 
-`Diagnostics`
+`#Diagnostics`
 1. First and foremost the first diagnostics to do is **USB Enumeration**.
  This tests several things at once. For example
    Whether the main SoC is alive;
@@ -40,7 +40,16 @@ and they Agreed. so i took it home.
    **This proved that the program was running fine and was initializing**
    **And also the rack and pinion were smooth and functional**
 
-4. I then unscrewed the 
+3. I then unscrewed the shield and carefully popped out the main controller PCB.
+   The PCB was shielded with a metal plate which was soldered at 3 different points. They were Ground points.
+
+   [IMG OF PCB]
+
+   I soldered off the shield to expose the bare PCB. I also Disconnected all three cables.
+
+4. Now with the Bare PCB in my hand, i did USB Enumeration Test again. and it showed up as Canon LiDE CanoScan. So, it passed USB Enumeration.
+5. I put the PCB back in, Cleaned the Connectors and Plugged it again. It passed the USB Enumeration
+6. Connected the connectors and tested again. It Passed.
 
 
 
