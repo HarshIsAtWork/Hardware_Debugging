@@ -1,5 +1,7 @@
 **Canon CanoScan LiDE 110, Dead Scanner Repair**
 
+[IMG 1 showing scanner from 2-3 sides]
+
 Date: 27 July 2026
 Symptom: Scanner didn't respond at all. No enumeration, no movement, nothing.
 Tools used: Themisto TH-M100 multimeter, soldering iron, precision screwdriver set.
@@ -16,14 +18,16 @@ and they Agreed. so i took it home.
 2. It wouldn't power ON when plugged with Mini USB CABLE
 3. There was NO movement inside the scanner
 
-#**Diagnostics**
-1. First and foremost the first diagnostics to do is **USB Enumeration**. This tests several things at once. For example
+`#**Diagnostics**`
+1. First and foremost the first diagnostics to do is **USB Enumeration**.
+ This tests several things at once. For example
    Whether the main SoC is alive
    Power is constant
    Crystal is Oscillating
    On Board Firmware and EEPROM are working
 RESULT: No USB Enumeration. This means it was either power issue, or some other issue.
-   
+
+2. Carefully unscrewed the back panel, 
 
 
 
