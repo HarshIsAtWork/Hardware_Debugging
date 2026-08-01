@@ -17,7 +17,7 @@ and they Agreed. so i took it home.
 3. There was NO movement inside the scanner
 
 #**Diagnostics**
-1. First and foremost the first diagnostics to do is USB Enumeration. This tests several things at once. For example
+1. First and foremost the first diagnostics to do is **USB Enumeration**. This tests several things at once. For example
    Whether the main SoC is alive
    Power is constant
    Crystal is Oscillating
