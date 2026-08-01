@@ -21,10 +21,10 @@ and they Agreed. so i took it home.
 `Diagnostics`
 1. First and foremost the first diagnostics to do is **USB Enumeration**.
  This tests several things at once. For example
-   Whether the main SoC is alive
-   Power is constant
-   Crystal is Oscillating
-   On Board Firmware and EEPROM are working
+   Whether the main SoC is alive;
+   Power is constant;
+   Crystal is Oscillating;
+   On Board Firmware and EEPROM are working;
 `RESULT`: No USB Enumeration. This means it was either power issue, or some other issue.
 
 2. Carefully unscrewed the back panel, Took the side rails apart and carefully lifted up the glass
