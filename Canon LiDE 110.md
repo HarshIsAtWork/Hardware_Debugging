@@ -11,7 +11,7 @@ and even they tried to get it fixed in many repair shops but...NO LUCK
 So i kindly asked them if i could take a look at it (because it was very intriguing)
 and they Agreed. so i took it home.
 
-**#Problem**
+`**#Problem**`
 1. The Scanner would not get recognized as a USB device in any computer. 
 2. It wouldn't power ON when plugged with Mini USB CABLE
 3. There was NO movement inside the scanner
