@@ -8,6 +8,7 @@ Status: Failed
 > if they have some E-waste. They gave me an ONIDA 24 inch LCD TV and said "Look if you can fix it, its fine if you cant"
 > So i took it home and started seeing whats broken
 
+--------------------------------------------------------------------------------------------------
 `Diagnosis`
 1. Supplied Mains power
    Result:
