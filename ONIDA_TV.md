@@ -9,7 +9,7 @@ Status: Failed
 > So i took it home and started seeing whats broken
 
 --------------------------------------------------------------------------------------------------
-`Diagnosis`
+# `Diagnosis`
 1. Supplied Mains power
    Result:
    LED Indicator blinking in loop between RED and BLUE
