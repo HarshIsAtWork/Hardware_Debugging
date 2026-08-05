@@ -1,4 +1,4 @@
-# 📺 ONIDA 24-inch LCD TV Repair Log
+# ONIDA 24-inch LCD TV Repair Log
 
 **Status:** 🟡 Partially Repaired
 **Time Invested:** ~10 Hours
