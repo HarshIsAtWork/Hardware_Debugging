@@ -36,12 +36,12 @@ After connecting the TV to mains power:
 # Safety Precautions
 
 > [!CAUTION]
-> The primary capacitor inside an SMPS can retain dangerous voltages even after the TV is unplugged.
+> The primary capacitor inside an SMPS can retain dangerous voltages even after the TV is unplugged. ALways Safely Discharge the Main Capacitor!!
 
 Before any testing I:
 
 * Unplugged the TV
-* Discharged the primary capacitor
+* Discharged the primary capacitor using a load a 2w resistor 
 * Used a multimeter to verify safe voltage before handling the board
 
 ---
@@ -178,8 +178,8 @@ After soldering it back:
 
 Instead of continuing to blindly troubleshoot the SMPS without a schematic, I decided to isolate it completely.
 
-> [!TIP]
-> Good debugging isn't just finding bad components—it's narrowing down which subsystem is actually failing.
+> [!REALISATION]
+> If the main board runs on 12v, I could just bypass the main SMPS board Entirely.
 
 ---
 
